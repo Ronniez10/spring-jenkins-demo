@@ -22,6 +22,7 @@ public class SpringJenkinsDemoApplication {
 	{
 		logger.info("Application Executed");
 		logger.info("Added another Log just for Testing");
+		logger.info("Dummy Log");
 		SpringApplication.run(SpringJenkinsDemoApplication.class, args);
 	}
 
